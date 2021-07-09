@@ -1,0 +1,20 @@
+.MainForecast {
+  text-align: center;
+}
+.MainForecast img {
+  height: 100px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.MainForecast span {
+  font-size: 35px;
+  line-height: 1;
+}
+
+.MainForecast small {
+  font-size: 15px;
+  margin-left: 3px;
+  position: relative;
+  top: -25px;
+}
