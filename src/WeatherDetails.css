@@ -1,0 +1,14 @@
+.WeatherDetails {
+  margin: 0;
+  padding: 0;
+}
+
+.WeatherDetails li {
+  font-size: 18px;
+  color: #272e3d;
+  list-style: none;
+  line-height: 2.3;
+}
+.WeatherDetails li span {
+  color: #2e5dbb;
+}
