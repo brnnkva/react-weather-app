@@ -31,6 +31,11 @@ function App() {
             </div>
         </div>
       </div>
+      <small className ="signature">
+            <a href="https://github.com/brnnkva/react-weather-app" 
+            target="_blank" rel="noreferrer">
+            open-source code</a>  by <span>brnnkva</span>
+          </small>
     </div>
     </div>
   );
