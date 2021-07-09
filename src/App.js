@@ -1,5 +1,7 @@
 import './App.css';
 import SearchForm from "./SearchForm";
+import MainForecast from "./MainForecast";
+import WeatherDetails from "./WeatherDetails";
 
 function App() {
   return (
@@ -17,6 +19,15 @@ function App() {
 
             <div className="col-6">
               <SearchForm />
+            </div>
+        </div>
+        <div className="row middle-row">
+        <div className="col-6 left-side pe-5">
+              <h1 id="main-city">Budapest</h1>
+              <MainForecast />
+            </div>
+            <div className="col-6 right-side mt-5">
+              <WeatherDetails />
             </div>
         </div>
       </div>
