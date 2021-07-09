@@ -17,3 +17,7 @@
   background: #2e5dbb;
   transition: all 300ms ease-in-out;
 }
+
+.SearchForm .findCurrent-button i {
+  font-size: 20px;
+}
