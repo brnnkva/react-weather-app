@@ -1,3 +1,27 @@
-.App {
+h1 {
+  color: #2e5dbb;
+  font-size: 40px;
+  line-height: 1;
+  margin: 15px auto;
   text-align: center;
+}
+
+.App .container {
+  max-width: 650px;
+  margin: 30px auto;
+}
+
+.App .weather-app {
+  border: 1px solid #e2e1e1;
+  border-radius: 5px;
+  background: #e2e1e1;
+  opacity: 0.9;
+  font-family: "Antonio", sans-serif;
+  padding: 20px;
+}
+
+.App .current-date {
+  font-size: 15px;
+  margin-left: 8px;
+  line-height: 1.5;
 }
