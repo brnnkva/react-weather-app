@@ -6,7 +6,7 @@ export default function SearchForm(){
 <div className="SearchForm">
       <form className="search-form">
         <div className="row">
-          <div className="col">
+          <div className="col-6">
             <input
               type="text"
               className="form-control"
@@ -20,7 +20,7 @@ export default function SearchForm(){
               value="Submit"
             />
           </div>
-          <div className="col-3">
+          <div className="col-2">
             <button
               type="click"
               className="btn btn-primary findCurrent-button"
